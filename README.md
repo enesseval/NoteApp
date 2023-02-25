@@ -1,3 +1,3 @@
 
 
-(proje.png)
+![screenshot](proje.png)
