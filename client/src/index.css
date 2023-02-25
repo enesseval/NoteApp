@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ccc;
+}
+
+.container {
+	padding: 20px;
+	display: flex;
+	max-width: 1080px;
+	margin: 0 auto;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100%;
+}
+
+.search {
+	margin-top: 10px;
+}
+.form {
+	width: 85%;
+	height: 400px;
+	background-color: #fff;
+	margin-top: 25px;
+	text-align: center;
+	border-radius: 7px;
+}
+
+.formContainer input {
+	margin-top: 15px;
+	width: 90%;
+}
+
+.formContainer textarea {
+	margin-top: 15px;
+	width: 90%;
+	resize: none;
+}
+
+.formBottom {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.radioButtons {
+	display: flex;
+	align-items: center;
+}
+
+.radioButtons p {
+	margin-right: 15px;
+}
+
+.radioBut {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	transition: all 1s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5px;
+}
+.radioSpan {
+	display: none;
+}
+
+.radioSpanVisible {
+	display: block;
+	color: #fff;
+}
+
+input[type="radio"] {
+	width: 30px;
+	height: 30px;
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.noteList {
+	max-width: 85%;
+	margin-top: 10px;
+	border-radius: 7px;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+}
+
+.noteList .noteCard {
+	flex: 3 1 33%;
+}
+
+.noteCard {
+	margin: 0 2px;
+	height: 100px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.noteTitle {
+	color: #fff;
+	height: 30px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+}
+
+.noteContent {
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 2px 5px;
+	color: #dfdfdf;
+}
+
+.search {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
