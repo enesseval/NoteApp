@@ -1,1 +1,3 @@
-klasörleri indirin ve client ve backend klasörlerine ayrı ayrı erişerek npm i komutu ile gereklilikleri yükleyerek kullanabilirisiniz.
+
+
+(proje.png)
